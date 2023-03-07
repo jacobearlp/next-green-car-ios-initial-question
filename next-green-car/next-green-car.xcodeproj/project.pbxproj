@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51B020B929B7610800ACC23A /* next_green_carApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B020B829B7610800ACC23A /* next_green_carApp.swift */; };
+		51B020BB29B7610800ACC23A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B020BA29B7610800ACC23A /* ContentView.swift */; };
+		51B020BD29B7610A00ACC23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B020BC29B7610A00ACC23A /* Assets.xcassets */; };
+		51B020C029B7610A00ACC23A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B020BF29B7610A00ACC23A /* Preview Assets.xcassets */; };
+		51B020CA29B7610A00ACC23A /* next_green_carTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B020C929B7610A00ACC23A /* next_green_carTests.swift */; };
+		51B020D429B7610A00ACC23A /* next_green_carUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B020D329B7610A00ACC23A /* next_green_carUITests.swift */; };
+		51B020D629B7610A00ACC23A /* next_green_carUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B020D529B7610A00ACC23A /* next_green_carUITestsLaunchTests.swift */; };
+		51B020F529B7628300ACC23A /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B020F429B7628300ACC23A /* TestFile.swift */; };
+		51B020F729B762A100ACC23A /* MyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B020F629B762A100ACC23A /* MyTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51B020C629B7610A00ACC23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B020AD29B7610800ACC23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B020B429B7610800ACC23A;
+			remoteInfo = "next-green-car";
+		};
+		51B020D029B7610A00ACC23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B020AD29B7610800ACC23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B020B429B7610800ACC23A;
+			remoteInfo = "next-green-car";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51B020B529B7610800ACC23A /* next-green-car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "next-green-car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B020B829B7610800ACC23A /* next_green_carApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = next_green_carApp.swift; sourceTree = "<group>"; };
+		51B020BA29B7610800ACC23A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51B020BC29B7610A00ACC23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51B020BF29B7610A00ACC23A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51B020C529B7610A00ACC23A /* next-green-carTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "next-green-carTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B020C929B7610A00ACC23A /* next_green_carTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = next_green_carTests.swift; sourceTree = "<group>"; };
+		51B020CF29B7610A00ACC23A /* next-green-carUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "next-green-carUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B020D329B7610A00ACC23A /* next_green_carUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = next_green_carUITests.swift; sourceTree = "<group>"; };
+		51B020D529B7610A00ACC23A /* next_green_carUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = next_green_carUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51B020F429B7628300ACC23A /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		51B020F629B762A100ACC23A /* MyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B020B229B7610800ACC23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B020C229B7610A00ACC23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B020CC29B7610A00ACC23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51B020AC29B7610800ACC23A = {
+			isa = PBXGroup;
+			children = (
+				51B020B729B7610800ACC23A /* next-green-car */,
+				51B020C829B7610A00ACC23A /* next-green-carTests */,
+				51B020D229B7610A00ACC23A /* next-green-carUITests */,
+				51B020B629B7610800ACC23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51B020B629B7610800ACC23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51B020B529B7610800ACC23A /* next-green-car.app */,
+				51B020C529B7610A00ACC23A /* next-green-carTests.xctest */,
+				51B020CF29B7610A00ACC23A /* next-green-carUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51B020B729B7610800ACC23A /* next-green-car */ = {
+			isa = PBXGroup;
+			children = (
+				51B020B829B7610800ACC23A /* next_green_carApp.swift */,
+				51B020BA29B7610800ACC23A /* ContentView.swift */,
+				51B020BC29B7610A00ACC23A /* Assets.xcassets */,
+				51B020BE29B7610A00ACC23A /* Preview Content */,
+				51B020F429B7628300ACC23A /* TestFile.swift */,
+			);
+			path = "next-green-car";
+			sourceTree = "<group>";
+		};
+		51B020BE29B7610A00ACC23A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51B020BF29B7610A00ACC23A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51B020C829B7610A00ACC23A /* next-green-carTests */ = {
+			isa = PBXGroup;
+			children = (
+				51B020C929B7610A00ACC23A /* next_green_carTests.swift */,
+				51B020F629B762A100ACC23A /* MyTest.swift */,
+			);
+			path = "next-green-carTests";
+			sourceTree = "<group>";
+		};
+		51B020D229B7610A00ACC23A /* next-green-carUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51B020D329B7610A00ACC23A /* next_green_carUITests.swift */,
+				51B020D529B7610A00ACC23A /* next_green_carUITestsLaunchTests.swift */,
+			);
+			path = "next-green-carUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51B020B429B7610800ACC23A /* next-green-car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B020D929B7610A00ACC23A /* Build configuration list for PBXNativeTarget "next-green-car" */;
+			buildPhases = (
+				51B020B129B7610800ACC23A /* Sources */,
+				51B020B229B7610800ACC23A /* Frameworks */,
+				51B020B329B7610800ACC23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "next-green-car";
+			productName = "next-green-car";
+			productReference = 51B020B529B7610800ACC23A /* next-green-car.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51B020C429B7610A00ACC23A /* next-green-carTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B020DC29B7610A00ACC23A /* Build configuration list for PBXNativeTarget "next-green-carTests" */;
+			buildPhases = (
+				51B020C129B7610A00ACC23A /* Sources */,
+				51B020C229B7610A00ACC23A /* Frameworks */,
+				51B020C329B7610A00ACC23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51B020C729B7610A00ACC23A /* PBXTargetDependency */,
+			);
+			name = "next-green-carTests";
+			productName = "next-green-carTests";
+			productReference = 51B020C529B7610A00ACC23A /* next-green-carTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51B020CE29B7610A00ACC23A /* next-green-carUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B020DF29B7610A00ACC23A /* Build configuration list for PBXNativeTarget "next-green-carUITests" */;
+			buildPhases = (
+				51B020CB29B7610A00ACC23A /* Sources */,
+				51B020CC29B7610A00ACC23A /* Frameworks */,
+				51B020CD29B7610A00ACC23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51B020D129B7610A00ACC23A /* PBXTargetDependency */,
+			);
+			name = "next-green-carUITests";
+			productName = "next-green-carUITests";
+			productReference = 51B020CF29B7610A00ACC23A /* next-green-carUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B020AD29B7610800ACC23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					51B020B429B7610800ACC23A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					51B020C429B7610A00ACC23A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 51B020B429B7610800ACC23A;
+					};
+					51B020CE29B7610A00ACC23A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 51B020B429B7610800ACC23A;
+					};
+				};
+			};
+			buildConfigurationList = 51B020B029B7610800ACC23A /* Build configuration list for PBXProject "next-green-car" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51B020AC29B7610800ACC23A;
+			productRefGroup = 51B020B629B7610800ACC23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51B020B429B7610800ACC23A /* next-green-car */,
+				51B020C429B7610A00ACC23A /* next-green-carTests */,
+				51B020CE29B7610A00ACC23A /* next-green-carUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B020B329B7610800ACC23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B020C029B7610A00ACC23A /* Preview Assets.xcassets in Resources */,
+				51B020BD29B7610A00ACC23A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B020C329B7610A00ACC23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B020CD29B7610A00ACC23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51B020B129B7610800ACC23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B020F529B7628300ACC23A /* TestFile.swift in Sources */,
+				51B020BB29B7610800ACC23A /* ContentView.swift in Sources */,
+				51B020B929B7610800ACC23A /* next_green_carApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B020C129B7610A00ACC23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B020CA29B7610A00ACC23A /* next_green_carTests.swift in Sources */,
+				51B020F729B762A100ACC23A /* MyTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B020CB29B7610A00ACC23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B020D629B7610A00ACC23A /* next_green_carUITestsLaunchTests.swift in Sources */,
+				51B020D429B7610A00ACC23A /* next_green_carUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51B020C729B7610A00ACC23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B020B429B7610800ACC23A /* next-green-car */;
+			targetProxy = 51B020C629B7610A00ACC23A /* PBXContainerItemProxy */;
+		};
+		51B020D129B7610A00ACC23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B020B429B7610800ACC23A /* next-green-car */;
+			targetProxy = 51B020D029B7610A00ACC23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51B020D729B7610A00ACC23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51B020D829B7610A00ACC23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51B020DA29B7610A00ACC23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"next-green-car/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobpotolin.next-green-car";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51B020DB29B7610A00ACC23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"next-green-car/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobpotolin.next-green-car";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51B020DD29B7610A00ACC23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobpotolin.next-green-carTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/next-green-car.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/next-green-car";
+			};
+			name = Debug;
+		};
+		51B020DE29B7610A00ACC23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobpotolin.next-green-carTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/next-green-car.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/next-green-car";
+			};
+			name = Release;
+		};
+		51B020E029B7610A00ACC23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobpotolin.next-green-carUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "next-green-car";
+			};
+			name = Debug;
+		};
+		51B020E129B7610A00ACC23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jacobpotolin.next-green-carUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "next-green-car";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51B020B029B7610800ACC23A /* Build configuration list for PBXProject "next-green-car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B020D729B7610A00ACC23A /* Debug */,
+				51B020D829B7610A00ACC23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B020D929B7610A00ACC23A /* Build configuration list for PBXNativeTarget "next-green-car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B020DA29B7610A00ACC23A /* Debug */,
+				51B020DB29B7610A00ACC23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B020DC29B7610A00ACC23A /* Build configuration list for PBXNativeTarget "next-green-carTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B020DD29B7610A00ACC23A /* Debug */,
+				51B020DE29B7610A00ACC23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51B020DF29B7610A00ACC23A /* Build configuration list for PBXNativeTarget "next-green-carUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B020E029B7610A00ACC23A /* Debug */,
+				51B020E129B7610A00ACC23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51B020AD29B7610800ACC23A /* Project object */;
+}
